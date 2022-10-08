@@ -46,8 +46,8 @@ public class Calcul9tor {
             System.out.println("Введите коэффициент 'c':");
             int c = in.nextInt();
             int D = b*b-4*a*c;
-            double x1= (-1*b+sqrt(D) )/2*a;
-            double x2= (-1*b-sqrt(D) )/2*a;
+            double x1= (-1*b+sqrt(D) )/(2*a);
+            double x2= (-1*b-sqrt(D) )/(2*a);
             System.out.println("Корни вашего уравнения:");
             System.out.println(x1);
             System.out.println(x2);
